@@ -1,0 +1,16 @@
+﻿@model SubsViewModel
+
+	@{
+		foreach(var Subscription in Model.AllSubs){
+			<div  class="item">
+                <div class="item-block-picture">
+                    <div  class="item-picture">
+					 <img src="@Subscription.ServiceImg" alt="@Subscription.ServiceName" />
+                    </div>
+                </div>
+                <span  class="item-name">@Subscription.ServiceName</span>
+                <span  class="item-price">@Subscription.ServicePrice.ToString("$0.00")</span>
+                <span  class="item-resub_timer">@Subscription.ServiceReSub</span>
+            </div>
+        }
+    }
