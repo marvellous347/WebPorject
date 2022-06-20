@@ -45,7 +45,14 @@ namespace WebProject
                 AppDBContent content = scope.ServiceProvider.GetRequiredService<AppDBContent>();
                 DBObjects.Initial(content);
             }
-            
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Subs}/{action=Subs}/{id?}"
+                );
+            }); 
             
         }
     }
