@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Microsoft+JhengHei&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="~/img/logo-70.png" />
-        <link rel="stylesheet" href="~/css/style.css">
+        <link rel="stylesheet" href="~/css/main.css">
         <link rel="stylesheet" href="~/css/variables.scss">          
     </head>
     
@@ -74,9 +74,9 @@
                 </div>
                 
                 <form class="add-new-item-form-block" method="post" accept="">
-                    <input name="ServiceName" type="text" placeholder="Service Name">
-                    <input name="ServicePrice" type="text" placeholder="Service Price">
-                    <input name="ServiceReSub" type="text" placeholder="Date of Subs">
+                    <input name="ServiceName" type="text" placeholder="Service Name" value="Request.Form["ServiceName"]">
+                    <input name="ServicePrice" type="text" placeholder="Service Price" value="Request.Form["ServicePrice"]">
+                    <input name="ServiceReSub" type="text" placeholder="Date of Subs" value="Request.Form["ServiceReSub"]">
                     <button class="add-new-item-btn">
                         <p class="add-new-item-thn-text">+ Add</p>
                     </button>

@@ -9,7 +9,7 @@ namespace WebProject
     public class Startup
     {
 
-        private IConfigurationRoot _confstring;
+        private readonly IConfigurationRoot _confstring;
 
         [Obsolete]
         public Startup(IHostingEnvironment hostEnv)
@@ -19,6 +19,7 @@ namespace WebProject
                 .AddJsonFile("dbsettings.json")
                 .Build();
         }
+        
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confstring.GetConnectionString("DefaultConnection")));

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zSBlGdpT9+CjgzMJ+wdHpz7of22H1BJ4wvYkLBOHhow=",
+  "Hash": "CgF+7GKwETg8kS37Dw5PH2bEpLh3KLsWBlbhIvvMnNA=",
   "Source": "WebProject",
   "BasePath": "_content/WebProject",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\css\\style.css",
+      "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\css\\login.css",
       "SourceId": "WebProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebProject",
-      "RelativePath": "css/style.css",
+      "RelativePath": "css/login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\css\\main.css",
+      "SourceId": "WebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebProject",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
       "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\css\\variables.scss",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\figma.png"
+    },
+    {
+      "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\img\\login_bg.png",
+      "SourceId": "WebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebProject",
+      "RelativePath": "img/login_bg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\login_bg.png"
     },
     {
       "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\img\\logo-70.png",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\youtube.png"
+    },
+    {
+      "Identity": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\scripts\\login.js",
+      "SourceId": "WebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LNU\\4 Семестер\\Web-програмування\\WebProject\\wwwroot\\",
+      "BasePath": "_content/WebProject",
+      "RelativePath": "scripts/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts\\login.js"
     }
   ]
 }
