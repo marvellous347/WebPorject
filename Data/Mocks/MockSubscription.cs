@@ -53,8 +53,6 @@ namespace WebProject.Data.Mocks
                 };
             }
         }
-
-        *//*IEnumerable<Subscription> iAllSubs.AllSubs { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }*//*
     }
 }
 */
